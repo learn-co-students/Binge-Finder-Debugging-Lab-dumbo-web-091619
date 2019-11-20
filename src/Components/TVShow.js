@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-const tvShow = () => {
-  return (
-    <div>
-      <br/>
-      <img src={props.image.medium} onClick={props.selectShow} alt=""/>
-    </div>
-  );
+class TVShow extends Component {
+  handleClick = (event) => this.props.selectShow(this.props.show)
+
+  render () {
+    return (
+      <div>
+        <br />
+        <img src={this.props.show.image.medium} onClick={this.handleClick} />
+      </div>
+    )
+  }
 }
 
-export default tvShow;
+export default TVShow
