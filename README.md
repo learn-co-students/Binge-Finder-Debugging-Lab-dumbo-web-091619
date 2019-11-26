@@ -1,4 +1,4 @@
-# Binge-Finder
+<!-- # Binge-Finder
 
 ## Instructions
 
@@ -13,14 +13,14 @@ You now have a project with an unknown amount of bugs and your client is coming 
 
 * Clone this repository and cd into it.
 * Run `npm install` or `yarn install` to install your dependencies.
-* Run `npm start` or `yarn start` and the project will be running on localhost:3000.
+* Run `npm start` or `yarn start` and the project will be running on localhost:3000. -->
 
-## Deliverables
+<!-- ## Deliverables -->
 
-1. A user should be able to click on a show and have the details show up on the left.
-2. A user should be able to search for a show.
-3. A user should be able to filter the list of shows by their rating.
-4. A user should be able to display seasons and episodes when a show is selected.
+<!-- 1. A user should be able to click on a show and have the details show up on the left. -->
+<!-- 2. A user should be able to search for a show. -->
+<!-- 3. A user should be able to filter the list of shows by their rating. -->
+<!-- 4. A user should be able to display seasons and episodes when a show is selected. -->
 
 
 ## BONUS
